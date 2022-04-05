@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav{
+            background-color: brown;
+            text-align: center;
+            padding: 3px;
+            box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.21);
+            
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin: 2px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px; /* Mexer em bordar individualmente */
+            box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0.21);
+        }
+        article{
+            background-color: lightgray;            
+        }
+        article > asside {
+            background-color: gray;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 4px;
+        }
+    </style>
+</head>
+<body>
+   <header>
+       <h1>Meu Site</h1>
+       <nav>
+           <a href="https://youtube.com.br">Youtube</a>
+           <a href="https://instagram.com.br">Instagram</a>
+           <a href="https://facebook.com.br">Facebook</a>
+           <a href="https://linkedin.com.br">Linkedin</a>
+       </nav>
+   </header>
+   <main>
+       <section id="notícias">
+           <p>Esporte Política Tecnologia</p>
+           <article>
+               <h2>Notícias sobre o Brasil</h2>
+               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea cumque dolor fugiat. Odit illo repellendus quidem a saepe? Unde magni atque quae incidunt quisquam nulla voluptatibus molestiae! Nisi, non eligendi!</p>
+               <aside>
+                <p>Artigo escrito por fulano.</p>
+            </aside>
+           </article>
+           </section>
+   </main>
+   <footer>
+        <p>Desenvolvido por Empresa X</p>
+   </footer>
+</body>
+</html>

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background: rgb(132, 225, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin: 0px;
+}
+header{
+    background-image: linear-gradient(to bottom, #64d887, #25883e);
+    text-align: center;
+    padding: 20px 0px 0px 10px;
+    color: white;
+    height: auto;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.466);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    line-height: 2em;
+}
+nav{
+    text-align: left;
+    color: white;
+    padding: 15px 0px 5px 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav > p{
+    margin: 0px;
+}
+main{
+    background-color: white;
+    margin: 0px;
+}
+.principal{
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.534);
+    width: auto;
+    padding: 10px;
+    margin: 0px 100px;
+}
+p{
+    text-align: justify;
+    text-indent: 2%;
+}
+div {
+    text-align: center;
+}
+.artigovideo{
+    background-color: rgb(3, 61, 3);
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.534);
+    width: auto;
+    padding: 10px;
+    margin: 0px 100px;
+}
+.artigofinal{
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 3px 3px 5px rgba(128, 128, 128, 0.534);
+    width: auto;
+    padding: 10px;
+    margin: 0px 100px;
+}
+.links{
+    display: block;
+    background-color: rgb(132, 225, 173);
+    text-align: justify;
+    padding: 10px;
+}
+.titulolinks{
+    text-align: center;
+    background-color: rgb(47, 168, 102);
+    border-radius: 10px 10px 0px 0px;
+    padding: 0px 0px;
+    margin: 0px;
+    color: white;
+}
+.lista1{
+    display: inline-block;
+    text-align: justify;
+    margin-right: 100px;
+}
+.lista2{
+    display: inline-block;
+    text-align: justify;
+}
+footer{
+    background-color: rgb(30, 105, 63);
+    color: white;
+    padding: 1px;
+    margin: 20px auto;
+}
+footer > p{
+    display: block;
+    margin-block-start: 1px;
+    margin-block-end: 1px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+/* 30 105 63 
+   47 168 102 
+   197 235 214
+   
+*/
