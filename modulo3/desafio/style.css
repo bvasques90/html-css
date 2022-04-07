@@ -1,1 +1,80 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Empire';
+    src: url(fontes/aAbsoluteEmpire.otf) format('opentype');
+}
 
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header > h1{
+    font-variant: small-caps;
+}
+
+body{
+    margin: auto;
+    background-color: darkgray;
+}
+
+header{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+section.texto {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(0, 0, 0);
+}
+
+section.zendikar {
+    padding-top: 10vh;
+    padding-bottom: 50vh;
+    margin: auto;
+    background-image: url(imagens/zendikar.jpg);
+    background-attachment: fixed;
+}
+
+section.zendikar > h3 {
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Empire', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-indent: 0px;
+    line-height: 2em;
+    padding-left: 20px;
+    
+}
+
+section.liliana {
+    padding-top: 10vh;
+    padding-bottom: 50vh;
+    margin: auto;
+    background-image: url(imagens/liliana.jpg);
+    background-attachment: fixed;
+}
+
+section.liliana > h3 {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Empire', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 2em;
+    text-indent: 0px;
+    line-height: 2em;
+    padding-left: 20px;
+}
